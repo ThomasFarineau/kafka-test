@@ -4,7 +4,7 @@
 
 To set up Kafka, I used Docker to create a Kafka container and a Zookeeper container. This way, I don't need to install Kafka on my machine, and I can start it very easily whenever I want.
 
-J'ai dû mettre une configuration pour mettre en place des modifications dans le docker compose, car j'ai activé les ACLs dans le serveur kafka.
+I had to set up a configuration to implement changes in the docker compose, because I enabled ACLs in the kafka server.
 
 ```bash
 cd kafka && docker compose --file docker-compose-v2.yml up -d 
